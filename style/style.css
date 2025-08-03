@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+}
+
+a{
+    /* width: 100%; */
+    text-decoration: none;
+}
+
+.heading{
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+    color: #ebeaea;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding:15px;
+
+    display: flex;
+    align-items: center;
+}
+
+.heading a{
+  margin-left: 15px;
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.heading p{
+  
+  font-size: 40px;
+  font-weight: 800;
+  margin: auto;
+
+}
+.mainContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: #d8d8d8;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.subjectContainer {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: start;
+  align-items: center;
+  background-color: #d8d8d8;
+  /* border-right: 2px solid #b2b2b2; */
+  /* max-width: 250px; */
+  width: 100%;
+}
+
+.studentContainer {
+  /* max-width: 750px; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.myProfile{
+    height: 170px;
+    width: 170px;
+    border-radius: 100%;
+    border: 5px solid rgb(29, 0, 29);
+    margin: 10px 0;
+}
+
+.subjectButton {
+  height: auto;
+  /* margin: 2.5px auto; */
+  text-align: center;
+  width: 100%;
+  padding: 10px 0;
+  border-right: 2px solid #b2b2b2;
+  color: #000000;
+  font-weight: 600;
+  background-color: #e7e7e7;
+  text-decoration: none;
+}
+
+.subjectButton:hover {
+  background-color: #c9c9c9;
+}
+
+.subjectButton .buttonContent {
+  margin: 10px 20px;
+}
+
+.headerContent {
+  max-width: 100%;
+  /* width: 100%; */
+  margin: 0 30px;
+  margin-top: 30px !important;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutMe{
+    margin-top: 30px;
+}
+
+.studentMainContent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3%;
+  width: 100%;
+  justify-content: center;
+}
+
+ul li {
+  list-style: none;
+}
+
+/* table design */
+
+.ownTable{
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #c9c9c9;
+
+    margin-bottom: 30px;
+
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ownTable  .tableRow{
+    width: 100%;
+    display: flex;
+    background-color: #c3c3c3;
+    /* border: 2px solid #c9c9c9; */
+
+}
+
+.ownTable .tableRow .head{
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.ownTable .tableRow .tableColumn{
+    max-width: 150px;
+    width: 100%;
+    padding: 10px 20px;
+    border: 2px solid #b2b2b2;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.ownTable .tableRow .tableColumnContent{
+    width: 100%;
+    border: 2px solid #b2b2b2;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.active{
+    background-color: #0086cf;
+    color: #ffffff;
+}
+
+.active:hover{
+    background-color: #0086cf !important;
+    color: #ffffff !important;
+}
